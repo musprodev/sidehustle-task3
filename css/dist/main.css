@@ -1,0 +1,62 @@
+body {
+  background-image: url("../../images/bg-img.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  font-family: sans-serif;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  height: 900px;
+}
+body .container {
+  margin: auto;
+  margin-top: 90px;
+  min-width: 350px;
+  border: 2px solid #fff;
+  height: 420px;
+  border-radius: 4px;
+  box-shadow: 0 4px 8px 0 #000, 0 8px 20px 0 rgba(0, 0, 0, 0.2);
+}
+body .container .counter-wrapper {
+  padding: 50px 20px;
+  text-align: center;
+}
+body .container .counter-wrapper .name {
+  text-transform: uppercase;
+  font-weight: 700;
+  color: #fff;
+  font-size: 2.4rem;
+}
+body .container .counter-wrapper .number {
+  font-size: 10rem;
+  color: green;
+  margin-top: 10px;
+  margin-bottom: 15px;
+}
+body .container .counter-wrapper .btn-counter {
+  text-align: center;
+}
+body .container .counter-wrapper .btn-counter div {
+  margin-bottom: 15px;
+}
+body .container .counter-wrapper .btn-counter div .btn {
+  padding: 10px 12px;
+  color: #fff;
+  text-transform: uppercase;
+  background-color: #0d2c54;
+  border: none;
+  font-size: 0.9rem;
+  border-radius: 3px;
+  box-shadow: 0 2px 8px 0 black, 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+body .container .counter-wrapper .btn-counter div .btn:hover {
+  cursor: pointer;
+}
+body .container .git-repo-link {
+  text-align: center;
+  margin-top: 5px;
+}
+body .container .git-repo-link img {
+  width: 25px;
+  height: 25px;
+}
