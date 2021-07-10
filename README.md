@@ -26,7 +26,7 @@ To create a Javascript counter
 ### Links
 - Solution URL: [https://jsbeginners.com/wp-content/uploads/2019/05/counter-javascript-project.png]
 
-- Live URL: [https://]
+- Live URL: [https://sidehustle-internship-task-3-js-counter.netlify.app/]
 
 ## My process
 
